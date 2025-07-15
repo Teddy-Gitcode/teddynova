@@ -1,16 +1,39 @@
 # teddynova
 
-A new Flutter project.
+# 📦 Project Structure - teddynova Flutter Portfolio
 
-## Getting Started
+This document outlines the folder structure used in the `teddynova` Flutter web portfolio project.
 
-This project is a starting point for a Flutter application.
+lib/
+├── main.dart # Entry point of the app
 
-A few resources to get you started if this is your first Flutter project:
+├── core/ # App-wide configurations and constants
+│ ├── constants.dart # Static constants (e.g., colors, text)
+│ ├── theme.dart # App themes and styles
+│ └── firebase_options.dart # Firebase configuration file (auto-generated)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+├── data/ # Data models and services
+│ ├── models/
+│ │ └── project_model.dart # Model for project objects
+│ └── services/
+│ └── firebase_service.dart # Firestore/Firebase logic
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+├── features/ # Feature-specific screens/pages
+│ ├── home/ # Home page section
+│ ├── about/ # About me section
+│ ├── projects/ # Portfolio/projects section
+│ └── contact/ # Contact form or social section
+
+├── widgets/ # Reusable shared UI components
+│ ├── navbar.dart # Navigation bar
+│ └── custom_button.dart # Button or other shared widgets
+
+├── router/ # Navigation/routing
+│ └── app_router.dart # Page routing using GoRouter or similar
+
+
+> ✅ **Firebase** is integrated to support dynamic content (e.g., portfolio projects, messages).
+>  
+> 🔧 You can manage your content using Firebase Firestore or connect with an admin panel.
+
+---
