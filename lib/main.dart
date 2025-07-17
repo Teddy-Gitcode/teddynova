@@ -8,6 +8,7 @@ import 'features/projects/projects_section.dart';
 import 'features/blog/blog_section.dart';
 import 'features/contact/contact_section.dart';
 import 'features/home/features_section.dart';
+import 'features/space_hub/space_hub_section.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +43,7 @@ class MainScaffold extends StatelessWidget {
             AboutSection(),
             ProjectsSection(),
             BlogSection(),
+            SpaceHubSection(),
             ContactSection(),
             Footer(),
           ],
