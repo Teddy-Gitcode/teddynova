@@ -63,7 +63,7 @@ flutter:
   assets:
     - assets/avatar_placeholder.png
     - assets/images/
-    - assets/videos/
+    #- assets/videos/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

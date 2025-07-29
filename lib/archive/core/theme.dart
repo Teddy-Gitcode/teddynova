@@ -37,7 +37,7 @@ class AppTheme {
         bodyLarge: GoogleFonts.robotoMono(fontSize: 18),
         bodyMedium: GoogleFonts.robotoMono(fontSize: 16),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: glassBackground,
         elevation: 8,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
